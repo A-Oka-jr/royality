@@ -1,31 +1,31 @@
-import { useState, useEffect } from "react"
-import { twMerge } from "tailwind-merge"
-import { Link } from "react-router-dom"
+import { useState, useEffect } from "react";
+import { twMerge } from "tailwind-merge";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
-  const [isScrolled, setIsScrolled] = useState(false)
-  const [navOpen, setNavOpen] = useState(false)
-  const [linksExpanded, setLinksExpanded] = useState(false)
-  const [linksHovered, setLinksHovered] = useState(false)
+  const [isScrolled, setIsScrolled] = useState(false);
+  const [navOpen, setNavOpen] = useState(false);
+  const [linksExpanded, setLinksExpanded] = useState(false);
+  const [linksHovered, setLinksHovered] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
       if (document.scrollingElement?.scrollTop ?? 0 > 10) {
-        setIsScrolled(true)
+        setIsScrolled(true);
       } else {
-        setIsScrolled(false)
+        setIsScrolled(false);
       }
-    }
+    };
 
-    window.addEventListener("scroll", handleScroll)
+    window.addEventListener("scroll", handleScroll);
 
     return () => {
-      window.removeEventListener("scroll", handleScroll)
-    }
-  })
+      window.removeEventListener("scroll", handleScroll);
+    };
+  });
 
-  const toggleNav = () => setNavOpen((prevState) => !prevState)
-  const toggleLinks = () => setLinksExpanded((prevState) => !prevState)
+  const toggleNav = () => setNavOpen((prevState) => !prevState);
+  const toggleLinks = () => setLinksExpanded((prevState) => !prevState);
 
   return (
     <nav
@@ -64,7 +64,7 @@ const Navbar = () => {
             <Link to="/cars" className="text-sm font-light hover:text-primary">
               Cars
             </Link>
-            <div
+            {/* <div
               onMouseEnter={() => setLinksHovered(true)}
               onMouseLeave={() => setLinksHovered(false)}
               className="relative lg:py-4"
@@ -112,7 +112,7 @@ const Navbar = () => {
                   Testimonials
                 </Link>
               </div>
-            </div>
+            </div> */}
             <Link
               to="/contact"
               className="text-sm font-light hover:text-primary"
@@ -138,7 +138,7 @@ const Navbar = () => {
         </button>
       </div>
     </nav>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
