@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [navOpen, setNavOpen] = useState(false);
-  const [linksExpanded, setLinksExpanded] = useState(false);
-  const [linksHovered, setLinksHovered] = useState(false);
+  // const [linksExpanded, setLinksExpanded] = useState(false);
+  // const [linksHovered, setLinksHovered] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -25,7 +25,7 @@ const Navbar = () => {
   });
 
   const toggleNav = () => setNavOpen((prevState) => !prevState);
-  const toggleLinks = () => setLinksExpanded((prevState) => !prevState);
+  // const toggleLinks = () => setLinksExpanded((prevState) => !prevState);
 
   return (
     <nav
