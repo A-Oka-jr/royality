@@ -15,16 +15,16 @@ const MessageSection = () => {
           <a href="#" className="button">
             <img src="/icons/whatsapp.svg" className="w-4" /> Whatsapp
           </a>
-          <a
+          {/* <a
             href="#"
             className="button border-white bg-transparent text-white hover:border-primary hover:bg-primary hover:text-dark"
           >
             Rent Now <span className="ti-arrow-top-right"></span>
-          </a>
+          </a> */}
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default MessageSection
+export default MessageSection;
