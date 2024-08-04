@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom"
-import CurvButton from "../CurvButton"
+import { Link } from "react-router-dom";
+import CurvButton from "../CurvButton";
 
 const AboutSection = ({ withButton = false }) => {
   return (
@@ -8,7 +8,7 @@ const AboutSection = ({ withButton = false }) => {
         <div className="flex flex-col justify-between gap-8 min-[992px]:gap-32 min-[992px]:flex-row">
           <div className="flex-1">
             <div>
-              <p className="text-small-primary mb-5">RENTAX</p>
+              <p className="text-small-primary mb-5">ROYALITY GT</p>
               <div className="text-4xl font-bold leading-tight mb-4">
                 <h2>We Are More Than</h2>
                 <span className="text-primary">A Car Rental Company</span>
@@ -65,7 +65,7 @@ const AboutSection = ({ withButton = false }) => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default AboutSection
+export default AboutSection;

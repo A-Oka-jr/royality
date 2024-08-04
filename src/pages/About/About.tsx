@@ -1,19 +1,19 @@
-import Clients from "../../components/Clients"
-import SectionHeader from "../../components/SectionHeader"
-import Separator from "../../components/Separator"
-import AboutSection from "../../components/sections/AboutSection"
-import MessageSection from "../../components/sections/MessageSection"
-import PromoSection from "../../components/sections/PromoSection"
-import TestimonialsSection from "../../components/sections/TestimonialsSection"
-import Experts from "./Experts"
+import Clients from "../../components/Clients";
+import SectionHeader from "../../components/SectionHeader";
+import Separator from "../../components/Separator";
+import AboutSection from "../../components/sections/AboutSection";
+import MessageSection from "../../components/sections/MessageSection";
+import PromoSection from "../../components/sections/PromoSection";
+import TestimonialsSection from "../../components/sections/TestimonialsSection";
+import Experts from "./Experts";
 
 const About = () => {
   return (
     <>
-      <section className="h-[70vh] bg-center bg-fill bg-aston-pattern">
+      <section className="h-[70vh] bg-center bg-fill bg-promo-pattern">
         <SectionHeader
           isCenter={false}
-          title="Rentax"
+          title="Royality GT"
           whiteText="About"
           yellowText="Us"
         />
@@ -27,7 +27,7 @@ const About = () => {
       <MessageSection />
       <Clients />
     </>
-  )
-}
+  );
+};
 
-export default About
+export default About;

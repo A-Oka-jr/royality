@@ -31,6 +31,8 @@ export default {
           "linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/slider/3.jpg)",
         "aston-pattern":
           "linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/slider/3.jpg)",
+        "brabos-pattern":
+          "linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/slider/brabos-weel.jpg)",
         "bentley-pattern":
           "linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/slider/11.jpg)",
         "audi-pattern":
@@ -39,4 +41,4 @@ export default {
     },
   },
   plugins: [],
-}
+};

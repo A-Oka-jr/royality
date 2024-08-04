@@ -126,7 +126,7 @@ const Navbar = () => {
             </div>
             <div>
               <p className="text-xs mb-1 font-light">Need help?</p>
-              <h5>855 100 4444</h5>
+              <h5>+971528616346</h5>
             </div>
           </div>
         </div>

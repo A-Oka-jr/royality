@@ -1,6 +1,6 @@
 const MessageSection = () => {
   return (
-    <section className="relative py-32 bg-message-pattern bg-left-top bg-cover bg-fixed ">
+    <section className="relative py-32 bg-brabos-pattern bg-left-top bg-cover bg-fixed ">
       <div className="container">
         <div className="text-center mb-10">
           <p className="text-small-primary mb-5">Rent your car</p>
@@ -12,7 +12,7 @@ const MessageSection = () => {
           </p>
         </div>
         <div className="flex justify-center gap-4">
-          <a href="#" className="button">
+          <a href="https://wa.me/971528616346" className="button">
             <img src="/icons/whatsapp.svg" className="w-4" /> Whatsapp
           </a>
           {/* <a

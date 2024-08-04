@@ -1,10 +1,10 @@
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 
 interface ContactMethodProps {
-  title: string
-  info: string
-  icon: string
-  withSeparator: boolean
+  title: string;
+  info: string;
+  icon: string;
+  withSeparator: boolean;
 }
 
 const ContactMethod = ({
@@ -28,8 +28,8 @@ const ContactMethod = ({
         <div className="w-full h-[1px] md:w-[1px] md:h-auto my-5 md:my-0 md:mx-5 bg-neutral-800" />
       )}
     </>
-  )
-}
+  );
+};
 
 const Footer = () => {
   return (
@@ -46,13 +46,13 @@ const Footer = () => {
             />
             <ContactMethod
               title="Write to us"
-              info="info@renax.com"
+              info="info@royality.com"
               icon="/icons/envelope.svg"
               withSeparator={true}
             />
             <ContactMethod
               title="Address"
-              info="Dubai, Water Tower, Office 123"
+              info="Dubai, Al Garhoud - Airport Rd, Office 123"
               icon="/icons/map-pin.svg"
               withSeparator={false}
             />
@@ -124,52 +124,13 @@ const Footer = () => {
                 </ul>
               </div>
             </div>
-            {/* Subscribe */}
-            <div className="flex-[0_0_auto] w-full md:w-1/3 py-11">
-              <div>
-                <h3 className="text-xl mb-4 font-bold">Quick Links</h3>
-                <p className="mb-5 text-sm font-light leading-loose text-neutral-300">
-                  Want to be notified about our services. Just sign up and we'll
-                  send you a notification by email.
-                </p>
-                <div className="relative">
-                  <input
-                    type="text"
-                    placeholder="Email Address"
-                    className="button bg-transparent hover:bg-transparent hover:border-primary text-left text-white px-6 w-full"
-                  />
-                  <button className="button absolute right-3 top-1/2 -translate-y-1/2 p-0 w-[34px] h-[34px] flex items-center justify-center">
-                    <i className="ti-arrow-right"></i>
-                  </button>
-                </div>
-              </div>
-            </div>
             {/* ----- */}
           </div>
         </div>
         {/* Bottom footer */}
-        <div className="py-10 text-xs text-neutral-400">
-          <p>
-            &copy;2024{" "}
-            <a
-              href="https://duruthemes.com/demo/html/renax/dark/index.html#"
-              className="text-white underline underline-offset-4 decoration-primary"
-            >
-              DuruThemes
-            </a>{" "}
-            and{" "}
-            <a
-              href="https://github.com/szyi10/"
-              className="text-white underline underline-offset-4 decoration-primary"
-            >
-              Szymon Kędzior
-            </a>
-            . All rights reserved.
-          </p>
-        </div>
       </div>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

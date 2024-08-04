@@ -1,17 +1,17 @@
-import { useRef } from "react"
-import { motion, useInView } from "framer-motion"
+import { useRef } from "react";
+import { motion, useInView } from "framer-motion";
 
 type SlideProps = {
   data: {
-    carName: string
-    price: number
-    img: string
-  }
-}
+    carName: string;
+    price: number;
+    img: string;
+  };
+};
 
 const Slide = ({ data }: SlideProps) => {
-  const ref = useRef(null)
-  const isInView = useInView(ref)
+  const ref = useRef(null);
+  const isInView = useInView(ref);
 
   return (
     <>
@@ -49,7 +49,7 @@ const Slide = ({ data }: SlideProps) => {
               >
                 {data.carName}
                 <span className="text-[20px] ml-5 font-bold text-primary">
-                  600${" "}
+                  {data.price}AED{" "}
                   <i className="text-xs uppercase font-light text-white">
                     / day
                   </i>
@@ -61,9 +61,9 @@ const Slide = ({ data }: SlideProps) => {
                 transition={{ duration: 0.7, ease: "easeOut", delay: 1.8 }}
                 className="flex items-start gap-6 flex-col min-[410px]:flex-row min-[410px]:items-center"
               >
-                <a href="#" className="button">
+                {/* <a href="#" className="button">
                   View Details <span className="ti-arrow-top-right"></span>
-                </a>
+                </a> */}
                 <a
                   href="#"
                   className="button border-white bg-transparent text-white hover:border-primary hover:bg-primary hover:text-dark"
@@ -76,7 +76,7 @@ const Slide = ({ data }: SlideProps) => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default Slide
+export default Slide;

@@ -9,7 +9,7 @@ const PromoSection = () => {
           </h3>
         </div>
         <div className="flex justify-center">
-          <a href="#" className="group/promo">
+          <a href="" className="group/promo">
             <div className="w-24 h-24 border border-primary rounded-full flex items-center justify-center">
               <span className=" text-4xl text-center group-hover/promo:text-primary transition-effect">
                 <i className="ti-control-play"></i>
@@ -19,7 +19,7 @@ const PromoSection = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default PromoSection
+export default PromoSection;

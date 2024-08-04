@@ -1,20 +1,20 @@
 export const homeSlides = [
   {
-    carName: "Bentley Bentayga",
+    carName: "Mercedes-Benz Brabus",
     price: 600,
-    img: "/img/slider/11.jpg",
+    img: "/img/slider/brabos-main.jpg",
   },
   {
-    carName: "Rolls Royce Cullinan",
+    carName: "Land Rover Defender",
     price: 900,
-    img: "/img/slider/12.jpg",
+    img: "/img/slider/defender-main.jpg",
   },
   {
     carName: "Audi RS7 Sportback",
     price: 450,
     img: "/img/slider/14.jpg",
   },
-]
+];
 
 export const homeFleet = [
   {
@@ -27,22 +27,22 @@ export const homeFleet = [
     img: "/img/slider/7.jpg",
   },
   {
-    carName: "Aston Martin DBX",
-    price: 500,
-    seats: 4,
+    carName: "Land Rover Defender",
+    price: 900,
+    seats: 7,
     transmission: "Auto",
     capacity: "2 Bags",
     minAge: 25,
-    img: "/img/slider/8.jpg",
+    img: "/img/slider/defender-main.jpg",
   },
   {
-    carName: "Bugatti Mistral W16",
+    carName: "Mercedes-Benz Brabus",
     price: 800,
-    seats: 2,
+    seats: 6,
     transmission: "Auto",
     capacity: "2 Bags",
     minAge: 25,
-    img: "/img/slider/9.jpg",
+    img: "/img/slider/brabos-main.jpg",
   },
   {
     carName: "Bentley Bentayga",
@@ -89,7 +89,7 @@ export const homeFleet = [
     minAge: 25,
     img: "/img/slider/15.jpg",
   },
-]
+];
 
 export const homeCarTypes = [
   {
@@ -117,7 +117,7 @@ export const homeCarTypes = [
     label: "Small Cars",
     img: "/img/cars/06.jpg",
   },
-]
+];
 
 export const homeTestimonials = [
   {
@@ -144,7 +144,7 @@ export const homeTestimonials = [
     name: "Emily Martin",
     img: "/img/team/6.jpg",
   },
-]
+];
 
 export const clientsBar = [
   {
@@ -179,7 +179,7 @@ export const clientsBar = [
     name: "Chrysler",
     img: "/img/clients/8.png",
   },
-]
+];
 
 export const expertsTeam = [
   {
@@ -212,7 +212,7 @@ export const expertsTeam = [
     img: "/img/team/3.jpg",
     position: "Sales Consultant",
   },
-]
+];
 
 export const servicesCards = [
   {
@@ -245,4 +245,4 @@ export const servicesCards = [
     text: "Lorem ipsum dolor sit amet the consectetur adipiscing elit entesque hendrerit elit nisan lacinia feugiat nunc eu aucton.",
     number: 6,
   },
-]
+];
