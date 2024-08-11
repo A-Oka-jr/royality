@@ -5,12 +5,12 @@ export const homeSlides = [
     img: "/img/slider/brabos-main.jpg",
   },
   {
-    carName: "Land Rover Defender 2020",
+    carName: "Land Rover Defender 2023",
     price: 900,
     img: "/img/slider/defender-main.jpg",
   },
   {
-    carName: "Mercedes-Benz S-Class 580",
+    carName: "Mercedes-Benz S-Class 580 2021",
     price: 1100,
     img: "/img/slider/s570-main.jpg",
   },
@@ -20,7 +20,7 @@ export const homeSlides = [
     img: "/img/slider/c300-main.jpg",
   },
   {
-    carName: "Mercedes-Benz G-Class Brabus White",
+    carName: "Mercedes-Benz G-Class Brabus 2020",
     price: 1600,
     img: "/img/slider/white-gclass-main.jpg",
   },
