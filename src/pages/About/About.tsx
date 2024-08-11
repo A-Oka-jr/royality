@@ -13,7 +13,7 @@ const About = () => {
       <section className="h-[70vh] bg-center bg-fill bg-promo-pattern">
         <SectionHeader
           isCenter={false}
-          title="Royality GT"
+          title="Royalty GT"
           whiteText="About"
           yellowText="Us"
         />

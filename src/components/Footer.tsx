@@ -40,19 +40,19 @@ const Footer = () => {
           <div className="flex flex-col justify-between md:flex-row border border-neutral-800 rounded-3xl py-5 px-5 lg:px-10 mb-8">
             <ContactMethod
               title="Call us"
-              info="+971 52-333-4444"
+              info="+971 528202238"
               icon="/icons/phone.svg"
               withSeparator={true}
             />
             <ContactMethod
               title="Write to us"
-              info="info@royality.com"
+              info="royaltygtcarrentalllc@gmail.com.com"
               icon="/icons/envelope.svg"
               withSeparator={true}
             />
             <ContactMethod
               title="Address"
-              info="Dubai, Al Garhoud - Airport Rd, Office 123"
+              info="Dubai, Al Garhoud - Al Fajer Bussiness Center, Office 95"
               icon="/icons/map-pin.svg"
               withSeparator={false}
             />
@@ -71,7 +71,7 @@ const Footer = () => {
                 </p>
                 <ul className="flex gap-2">
                   <li className="w-14 h-14 mr-1 border border-primary rounded-full flex items-center justify-center hover:bg-primary transition-effect">
-                    <a href="#">
+                    <a href="https://wa.me/971528616346">
                       <img
                         src="/icons/whatsapp-light.svg"
                         className="w-6 h-6"
@@ -79,13 +79,18 @@ const Footer = () => {
                     </a>
                   </li>
                   <li className="w-14 h-14 mr-1 border border-primary rounded-full flex items-center justify-center hover:bg-primary transition-effect">
-                    <a href="#">
-                      <img src="/icons/facebook.svg" className="w-6 h-6" />
+                    <a href="https://www.instagram.com/royaltygtcarrental">
+                      <img src="/icons/instagram.svg" className="w-6 h-6" />
                     </a>
                   </li>
                   <li className="w-14 h-14 mr-1 border border-primary rounded-full flex items-center justify-center hover:bg-primary transition-effect">
-                    <a href="#">
-                      <img src="/icons/youtube.svg" className="w-6 h-6" />
+                    <a href="https://www.tiktok.com/@royalty.gt.car.re">
+                      <img src="/icons/tiktok.svg" className="w-6 h-6" />
+                    </a>
+                  </li>
+                  <li className="w-14 h-14 mr-1 border border-primary rounded-full flex items-center justify-center hover:bg-primary transition-effect">
+                    <a href="https://www.snapchat.com/add/royaltyGt">
+                      <img src="/icons/snapchat.svg" className="w-6 h-6" />
                     </a>
                   </li>
                 </ul>
