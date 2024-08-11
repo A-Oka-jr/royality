@@ -1,7 +1,7 @@
 export const homeSlides = [
   {
     carName: "Mercedes-Benz G-63 Brabus",
-    price: 600,
+    price: 1800,
     img: "/img/slider/brabos-main.jpg",
   },
   {
@@ -11,7 +11,7 @@ export const homeSlides = [
   },
   {
     carName: "Mercedes-Benz S-Class 580",
-    price: 800,
+    price: 1100,
     img: "/img/slider/s570-main.jpg",
   },
   {
@@ -21,7 +21,7 @@ export const homeSlides = [
   },
   {
     carName: "Mercedes-Benz G-Class Brabus White",
-    price: 1200,
+    price: 1600,
     img: "/img/slider/white-gclass-main.jpg",
   },
 ];
@@ -30,14 +30,14 @@ export const homeFleet = [
   {
     carName: "Land Rover Defender",
     price: 900,
-    seats: 5,
+    seats: 4,
     transmission: "Auto",
     capacity: "4 Bags",
     minAge: 23,
     img: "/img/slider/defender-main.jpg",
   },
   {
-    carName: "Mercedes-Benz G-63 Brabus",
+    carName: "Mercedes-Benz G-63 Brabus 2020",
     price: 1800,
     seats: 5,
     transmission: "Auto",
@@ -46,11 +46,11 @@ export const homeFleet = [
     img: "/img/slider/brabos-main.jpg",
   },
   {
-    carName: "Mercedes-Benz S-Class 580",
-    price: 800,
+    carName: "Mercedes-Benz S-Class 580 2021",
+    price: 1100,
     seats: 4,
     transmission: "Auto",
-    capacity: "3 Bags",
+    capacity: "2 Bags",
     minAge: 23,
     img: "/img/slider/s570-main.jpg",
   },
@@ -59,16 +59,16 @@ export const homeFleet = [
     price: 600,
     seats: 4,
     transmission: "Auto",
-    capacity: "3 Bags",
+    capacity: "2 Bags",
     minAge: 23,
     img: "/img/slider/c300-main.jpg",
   },
   {
-    carName: "Mercedes-Benz G-Class Brabus",
-    price: 1800,
+    carName: "Mercedes-Benz G-Class Brabus 2020",
+    price: 1600,
     seats: 5,
     transmission: "Auto",
-    capacity: "4 Bags",
+    capacity: "2 Bags",
     minAge: 23,
     img: "/img/slider/white-gclass-main.jpg",
   },
