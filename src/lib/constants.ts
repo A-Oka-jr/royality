@@ -15,8 +15,8 @@ export const homeSlides = [
     img: "/img/slider/s570-main.jpg",
   },
   {
-    carName: "Mercedes-Benz C-Class 300",
-    price: 600,
+    carName: "Mercedes-Benz C-Class 300 2023",
+    price: 450,
     img: "/img/slider/c300-main.jpg",
   },
   {
@@ -55,8 +55,8 @@ export const homeFleet = [
     img: "/img/slider/s570-main.jpg",
   },
   {
-    carName: "Mercedes-Benz C-Class 300",
-    price: 600,
+    carName: "Mercedes-Benz C-Class 300 2023",
+    price: 450,
     seats: 4,
     transmission: "Auto",
     capacity: "2 Bags",
