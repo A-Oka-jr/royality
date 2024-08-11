@@ -89,7 +89,7 @@ const Footer = () => {
                     </a>
                   </li>
                   <li className="w-14 h-14 mr-1 border border-primary rounded-full flex items-center justify-center hover:bg-primary transition-effect">
-                    <a href="https://www.snapchat.com/add/royaltyGt">
+                    <a href="https://www.snapchat.com/add/royaltygtcars">
                       <img src="/icons/snapchat.svg" className="w-6 h-6" />
                     </a>
                   </li>
