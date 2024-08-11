@@ -1,6 +1,6 @@
 export const homeSlides = [
   {
-    carName: "Mercedes-Benz Brabus",
+    carName: "Mercedes-Benz G-63 Brabus",
     price: 600,
     img: "/img/slider/brabos-main.jpg",
   },
@@ -10,84 +10,67 @@ export const homeSlides = [
     img: "/img/slider/defender-main.jpg",
   },
   {
-    carName: "Audi RS7 Sportback",
-    price: 450,
-    img: "/img/slider/14.jpg",
+    carName: "Mercedes-Benz S-Class 580",
+    price: 800,
+    img: "/img/slider/s570-main.jpg",
+  },
+  {
+    carName: "Mercedes-Benz C-Class 300",
+    price: 600,
+    img: "/img/slider/c300-main.jpg",
+  },
+  {
+    carName: "Mercedes-Benz G-Class Brabus White",
+    price: 1200,
+    img: "/img/slider/white-gclass-main.jpg",
   },
 ];
 
 export const homeFleet = [
   {
-    carName: "Lamborghini Urus",
-    price: 750,
-    seats: 4,
-    transmission: "Auto",
-    capacity: "2 Bags",
-    minAge: 25,
-    img: "/img/slider/7.jpg",
-  },
-  {
     carName: "Land Rover Defender",
     price: 900,
-    seats: 7,
+    seats: 5,
     transmission: "Auto",
-    capacity: "2 Bags",
-    minAge: 25,
+    capacity: "4 Bags",
+    minAge: 23,
     img: "/img/slider/defender-main.jpg",
   },
   {
-    carName: "Mercedes-Benz Brabus",
-    price: 800,
-    seats: 6,
+    carName: "Mercedes-Benz G-63 Brabus",
+    price: 1800,
+    seats: 5,
     transmission: "Auto",
-    capacity: "2 Bags",
-    minAge: 25,
+    capacity: "4 Bags",
+    minAge: 23,
     img: "/img/slider/brabos-main.jpg",
   },
   {
-    carName: "Bentley Bentayga",
-    price: 600,
-    seats: 4,
-    transmission: "Auto",
-    capacity: "2 Bags",
-    minAge: 25,
-    img: "/img/slider/11.jpg",
-  },
-  {
-    carName: "Rolls Royce Cullinan",
-    price: 900,
-    seats: 4,
-    transmission: "Auto",
-    capacity: "4 Bags",
-    minAge: 25,
-    img: "/img/slider/12.jpg",
-  },
-  {
-    carName: "Bentley Continental",
-    price: 500,
-    seats: 4,
-    transmission: "Auto",
-    capacity: "2 Bags",
-    minAge: 25,
-    img: "/img/slider/13.jpg",
-  },
-  {
-    carName: "Audi RS7 Sportback",
-    price: 450,
-    seats: 4,
-    transmission: "Auto",
-    capacity: "2 Bags",
-    minAge: 25,
-    img: "/img/slider/14.jpg",
-  },
-  {
-    carName: "Audi Q8",
-    price: 450,
+    carName: "Mercedes-Benz S-Class 580",
+    price: 800,
     seats: 4,
     transmission: "Auto",
     capacity: "3 Bags",
-    minAge: 25,
-    img: "/img/slider/15.jpg",
+    minAge: 23,
+    img: "/img/slider/s570-main.jpg",
+  },
+  {
+    carName: "Mercedes-Benz C-Class 300",
+    price: 600,
+    seats: 4,
+    transmission: "Auto",
+    capacity: "3 Bags",
+    minAge: 23,
+    img: "/img/slider/c300-main.jpg",
+  },
+  {
+    carName: "Mercedes-Benz G-Class Brabus",
+    price: 1800,
+    seats: 5,
+    transmission: "Auto",
+    capacity: "4 Bags",
+    minAge: 23,
+    img: "/img/slider/white-gclass-main.jpg",
   },
 ];
 
@@ -147,38 +130,42 @@ export const homeTestimonials = [
 ];
 
 export const clientsBar = [
-  {
-    name: "Ferrari",
-    img: "/img/clients/1.png",
-  },
-  {
-    name: "Lamborghini",
-    img: "/img/clients/2.png",
-  },
-  {
-    name: "Rolls Royce",
-    img: "/img/clients/3.png",
-  },
-  {
-    name: "Posrche",
-    img: "/img/clients/4.png",
-  },
-  {
-    name: "Maserati",
-    img: "/img/clients/5.png",
-  },
+  // {
+  //   name: "Ferrari",
+  //   img: "/img/clients/1.png",
+  // },
+  // {
+  //   name: "Lamborghini",
+  //   img: "/img/clients/2.png",
+  // },
+  // {
+  //   name: "Rolls Royce",
+  //   img: "/img/clients/3.png",
+  // },
+  // {
+  //   name: "Posrche",
+  //   img: "/img/clients/4.png",
+  // },
+  // {
+  //   name: "Maserati",
+  //   img: "/img/clients/5.png",
+  // },
   {
     name: "Land Rover",
     img: "/img/clients/6.png",
   },
   {
-    name: "Mini",
-    img: "/img/clients/7.png",
+    name: "Marcedes-Benz",
+    img: "/img/clients/Mercedes-Benz-Logo.png",
   },
-  {
-    name: "Chrysler",
-    img: "/img/clients/8.png",
-  },
+  // {
+  //   name: "Mini",
+  //   img: "/img/clients/7.png",
+  // },
+  // {
+  //   name: "Chrysler",
+  //   img: "/img/clients/8.png",
+  // },
 ];
 
 export const expertsTeam = [

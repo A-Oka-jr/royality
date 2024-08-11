@@ -12,7 +12,7 @@ const MessageSection = () => {
           </p>
         </div>
         <div className="flex justify-center gap-4">
-          <a href="https://wa.me/971528616346" className="button">
+          <a href="https://wa.me/971522218852" className="button">
             <img src="/icons/whatsapp.svg" className="w-4" /> Whatsapp
           </a>
           {/* <a

@@ -40,7 +40,7 @@ const Footer = () => {
           <div className="flex flex-col justify-between md:flex-row border border-neutral-800 rounded-3xl py-5 px-5 lg:px-10 mb-8">
             <ContactMethod
               title="Call us"
-              info="+971 528202238"
+              info="+971 522218852"
               icon="/icons/phone.svg"
               withSeparator={true}
             />
