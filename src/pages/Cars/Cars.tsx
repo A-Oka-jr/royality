@@ -1,12 +1,12 @@
-import Clients from "../../components/Clients"
-import SectionHeader from "../../components/SectionHeader"
-import Separator from "../../components/Separator"
-import CarsGrid from "./CarsGrid"
+import Clients from "../../components/Clients";
+import SectionHeader from "../../components/SectionHeader";
+import Separator from "../../components/Separator";
+import CarsGrid from "./CarsGrid";
 
 const Cars = () => {
   return (
     <>
-      <section className="h-[70vh] bg-center bg-fill bg-aston-pattern">
+      <section className="h-[70vh] bg-center bg-fill bg-book-pattern">
         <SectionHeader
           isCenter={true}
           title="Select your car"
@@ -19,7 +19,7 @@ const Cars = () => {
       <CarsGrid />
       <Clients />
     </>
-  )
-}
+  );
+};
 
-export default Cars
+export default Cars;

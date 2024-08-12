@@ -1,8 +1,8 @@
-import { Swiper, SwiperSlide } from "swiper/react"
+import { Swiper, SwiperSlide } from "swiper/react";
 
-import { homeFleet } from "../../lib/constants"
+import { homeFleet } from "../../lib/constants";
 
-import "swiper/css"
+import "swiper/css";
 
 const Fleet = () => {
   return (
@@ -66,7 +66,7 @@ const Fleet = () => {
                   <button className="button">Details</button>
                   <div className="flex flex-col ">
                     <span className="text-primary text-xl font-bold">
-                      ${car.price}
+                      {car.price + "AED"}
                     </span>
                     <span className="text-neutral-500">/day</span>
                   </div>
@@ -77,7 +77,7 @@ const Fleet = () => {
         ))}
       </Swiper>
     </section>
-  )
-}
+  );
+};
 
-export default Fleet
+export default Fleet;

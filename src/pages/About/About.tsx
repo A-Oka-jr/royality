@@ -4,7 +4,7 @@ import Separator from "../../components/Separator";
 import AboutSection from "../../components/sections/AboutSection";
 import MessageSection from "../../components/sections/MessageSection";
 import PromoSection from "../../components/sections/PromoSection";
-import TestimonialsSection from "../../components/sections/TestimonialsSection";
+// import TestimonialsSection from "../../components/sections/TestimonialsSection";
 import Experts from "./Experts";
 
 const About = () => {
@@ -21,7 +21,7 @@ const About = () => {
       <Separator />
       <AboutSection />
       <PromoSection />
-      <TestimonialsSection />
+      {/* <TestimonialsSection /> */}
       <Separator />
       <Experts />
       <MessageSection />
