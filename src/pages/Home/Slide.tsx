@@ -39,7 +39,7 @@ const Slide = ({ data }: SlideProps) => {
                 transition={{ duration: 0.7, ease: "easeOut", delay: 0.6 }}
                 className="text-4xl lg:text-8xl font-bold"
               >
-                Rental Car
+                Luxury Car Rental in Dubai
               </motion.h1>
               <motion.h5
                 initial={{ y: 20, opacity: 0 }}
