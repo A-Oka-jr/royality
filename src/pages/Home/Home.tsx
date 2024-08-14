@@ -14,7 +14,7 @@ const Home = () => {
   return (
     <>
       <Slider />
-      <AboutSection withButton={true} />
+      <AboutSection withButton={false} />
       {/* <BookSection /> */}
       <Fleet />
       <Separator />

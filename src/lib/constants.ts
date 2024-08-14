@@ -202,34 +202,40 @@ export const expertsTeam = [
 ];
 
 export const servicesCards = [
-  {
-    title: "Corporate Car Rental",
-    text: "Lorem ipsum dolor sit amet the consectetur adipiscing elit entesque hendrerit elit nisan lacinia feugiat nunc eu aucton.",
-    number: 1,
-  },
+  // {
+  //   title: "Corporate Car Rental",
+  //   text: "is a premium car rental service that specializes in providing luxury vehicles to businesses and professionals in Dubai. Whether you need a sophisticated vehicle for a corporate event, client meeting, or daily transportation, we offer a wide range of high-end cars to suit your needs.",
+  //   number: 1,
+  // },
   {
     title: "Car Rental with Driver",
-    text: "Lorem ipsum dolor sit amet the consectetur adipiscing elit entesque hendrerit elit nisan lacinia feugiat nunc eu aucton.",
+    text: `Enjoy a Hassle-Free Ride with Our Professional Chauffeurs
+
+At RoyaltyGt, we understand that sometimes driving yourself isn’t the most convenient option. Whether you’re traveling for business, heading to a special event, or simply want to sit back and relax, our Car Rental with Driver service offers the perfect solution.`,
     number: 2,
   },
   {
     title: "Airport Transfer",
-    text: "Lorem ipsum dolor sit amet the consectetur adipiscing elit entesque hendrerit elit nisan lacinia feugiat nunc eu aucton.",
+    text: `Start and End Your Journey in Comfort and Style
+
+Traveling can be stressful, but getting to and from the airport doesn’t have to be. Our Airport Transfer service ensures you enjoy a smooth, stress-free ride, whether you’re heading to catch a flight or arriving after a long journey.`,
     number: 3,
   },
-  {
-    title: "Fleet Leasing",
-    text: "Lorem ipsum dolor sit amet the consectetur adipiscing elit entesque hendrerit elit nisan lacinia feugiat nunc eu aucton.",
-    number: 4,
-  },
+  // {
+  //   title: "Fleet Leasing",
+  //   text: "Lorem ipsum dolor sit amet the consectetur adipiscing elit entesque hendrerit elit nisan lacinia feugiat nunc eu aucton.",
+  //   number: 4,
+  // },
   {
     title: "VIP Transfer",
-    text: "Lorem ipsum dolor sit amet the consectetur adipiscing elit entesque hendrerit elit nisan lacinia feugiat nunc eu aucton.",
+    text: `For those who demand the very best, our VIP Transfer service offers a level of luxury and personalized attention that goes above and beyond. Whether you’re a business executive, a celebrity, or someone who simply appreciates the finer things in life, our VIP Transfer service ensures your journey is nothing short of exceptional.`,
     number: 5,
   },
   {
     title: "Private Transfer",
-    text: "Lorem ipsum dolor sit amet the consectetur adipiscing elit entesque hendrerit elit nisan lacinia feugiat nunc eu aucton.",
+    text: `Personalized Transportation for Your Convenience
+
+When you need reliable, direct transportation, our Private Transfer service offers the perfect solution. Whether you're traveling for business, leisure, or any special occasion, enjoy a private, comfortable ride tailored to your schedule and preferences.`,
     number: 6,
   },
 ];

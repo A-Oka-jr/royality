@@ -30,7 +30,7 @@ const AboutSection = ({ withButton = false }) => {
                     </p>
                   </div>
                 </li>
-                <li className="flex items-center mt-3">
+                {/* <li className="flex items-center mt-3">
                   <div className="flex items-center justify-center">
                     <span className="ti-check text-primary bg-neutral-800 p-4 rounded-full text-[11px]"></span>
                   </div>
@@ -39,7 +39,7 @@ const AboutSection = ({ withButton = false }) => {
                       Sports and Luxury Cars
                     </p>
                   </div>
-                </li>
+                </li> */}
               </ul>
               {withButton && (
                 <div className="flex">
