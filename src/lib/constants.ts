@@ -24,10 +24,29 @@ export const homeSlides = [
     price: 1600,
     img: "/img/slider/white-gclass-main.jpg",
   },
+
+  {
+    carName: "Mercedes-Benz GLC 250 2020",
+    price: 400,
+    img: "/img/slider/GLC-main.JPG",
+  },
+
+  {
+    carName: "BMW 530i 2021",
+    price: 400,
+    img: "/img/slider/bmw530i-main.JPG",
+  },
+
+  {
+    carName: "Porshce Macan S 2021",
+    price: 625,
+    img: "/img/slider/porshce-macan-main.JPG",
+  },
 ];
 
 export const homeFleet = [
   {
+    id: 1,
     carName: "Land Rover Defender 2023",
     price: 900,
     seats: 4,
@@ -37,6 +56,7 @@ export const homeFleet = [
     img: "/img/slider/defender-main.jpg",
   },
   {
+    id: 2,
     carName: "Mercedes-Benz G-63 Brabus 2020",
     price: 1800,
     seats: 5,
@@ -46,6 +66,7 @@ export const homeFleet = [
     img: "/img/slider/brabos-main.jpg",
   },
   {
+    id: 3,
     carName: "Mercedes-Benz S-Class 580 2021",
     price: 1100,
     seats: 4,
@@ -55,6 +76,7 @@ export const homeFleet = [
     img: "/img/slider/s570-main.jpg",
   },
   {
+    id: 4,
     carName: "Mercedes-Benz C-Class 300 2023",
     price: 450,
     seats: 4,
@@ -64,6 +86,7 @@ export const homeFleet = [
     img: "/img/slider/c300-main.jpg",
   },
   {
+    id: 5,
     carName: "Mercedes-Benz G-Class Brabus 2020",
     price: 1600,
     seats: 5,
@@ -71,6 +94,36 @@ export const homeFleet = [
     capacity: "2 Bags",
     minAge: 23,
     img: "/img/slider/white-gclass-main.jpg",
+  },
+  {
+    id: 6,
+    carName: "Mercedes-Benz GLC 250 2020",
+    price: 400,
+    seats: 4,
+    transmission: "Auto",
+    capacity: "2 Bags",
+    minAge: 23,
+    img: "/img/slider/GLC-main.JPG",
+  },
+  {
+    id: 7,
+    carName: "BMW 530i 2021",
+    price: 400,
+    seats: 4,
+    transmission: "Auto",
+    capacity: "2 Bags",
+    minAge: 23,
+    img: "/img/slider/bmw530i-main.JPG",
+  },
+  {
+    id: 8,
+    carName: "Porshce Macan S 2021",
+    price: 625,
+    seats: 4,
+    transmission: "Auto",
+    capacity: "2 Bags",
+    minAge: 23,
+    img: "/img/slider/porshce-macan-main.JPG",
   },
 ];
 
@@ -134,22 +187,6 @@ export const clientsBar = [
   //   name: "Ferrari",
   //   img: "/img/clients/1.png",
   // },
-  // {
-  //   name: "Lamborghini",
-  //   img: "/img/clients/2.png",
-  // },
-  // {
-  //   name: "Rolls Royce",
-  //   img: "/img/clients/3.png",
-  // },
-  // {
-  //   name: "Posrche",
-  //   img: "/img/clients/4.png",
-  // },
-  // {
-  //   name: "Maserati",
-  //   img: "/img/clients/5.png",
-  // },
   {
     name: "Land Rover",
     img: "/img/clients/6.png",
@@ -157,6 +194,14 @@ export const clientsBar = [
   {
     name: "Marcedes-Benz",
     img: "/img/clients/Mercedes-Benz-Logo.png",
+  },
+  {
+    name: "Marcedes-Benz",
+    img: "/img/clients/porshce-logo.png",
+  },
+  {
+    name: "Marcedes-Benz",
+    img: "/img/clients/bmw-logo.png",
   },
   // {
   //   name: "Mini",
