@@ -64,12 +64,12 @@ const Slide = ({ data }: SlideProps) => {
                 {/* <a href="#" className="button">
                   View Details <span className="ti-arrow-top-right"></span>
                 </a> */}
-                <a
+                {/* <a
                   href="#"
                   className="button border-white bg-transparent text-white hover:border-primary hover:bg-primary hover:text-dark"
                 >
                   Rent Now <span className="ti-arrow-top-right"></span>
-                </a>
+                </a> */}
               </motion.div>
             </>
           )}
