@@ -24,19 +24,19 @@ export default {
       },
       backgroundImage: {
         "book-pattern":
-          "linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/slider/2.jpg)",
+          "linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/slider/2.jpg)",
         "promo-pattern":
-          "linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/slider/promo.jpg)",
+          "linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/slider/promo.jpg)",
         "message-pattern":
-          "linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/slider/3.jpg)",
+          "linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/slider/3.jpg)",
         "aston-pattern":
-          "linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/slider/3.jpg)",
+          "linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/slider/3.jpg)",
         "brabos-pattern":
-          "linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/slider/brabos-weel.jpg)",
+          "linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/slider/brabos-weel.jpg)",
         "bentley-pattern":
-          "linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/slider/11.jpg)",
+          "linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/slider/11.jpg)",
         "audi-pattern":
-          "linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/slider/14.jpg)",
+          "linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/slider/14.jpg)",
       },
     },
   },
