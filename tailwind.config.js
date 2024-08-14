@@ -24,7 +24,7 @@ export default {
       },
       backgroundImage: {
         "book-pattern":
-          "linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/slider/2.jpg)",
+          "linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/slider/s570-main.jpg)",
         "promo-pattern":
           "linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/slider/promo.jpg)",
         "message-pattern":
