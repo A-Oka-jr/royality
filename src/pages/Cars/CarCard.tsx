@@ -1,15 +1,16 @@
-import { Link } from "react-router-dom"
+// import { Link } from "react-router-dom";
 
 interface CarData {
   data: {
-    carName: string
-    price: number
-    seats: number
-    transmission: string
-    capacity: string
-    minAge: number
-    img: string
-  }
+    id: number;
+    carName: string;
+    price: number;
+    seats: number;
+    transmission: string;
+    capacity: string;
+    minAge: number;
+    img: string;
+  };
 }
 
 const CarCard = ({ data }: CarData) => {
@@ -37,19 +38,19 @@ const CarCard = ({ data }: CarData) => {
           </div>
         </div>
         <div className="flex gap-2">
-          <Link to="/cars/bentley-bentayga" className="button px-5 py-2">
+          {/* <Link to="/cars/bentley-bentayga" className="button px-5 py-2">
             Details
-          </Link>
+          </Link> */}
           <div className="flex flex-col ">
             <span className="text-primary text-xl font-bold">
-              ${data.price}
+              {data.price}AED
             </span>
             <span className="text-neutral-500">/day</span>
           </div>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default CarCard
+export default CarCard;
