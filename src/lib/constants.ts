@@ -5,9 +5,9 @@ export const homeSlides = [
     img: "/img/slider/brabos-main.jpg",
   },
   {
-    carName: "Land Rover Defender 2023",
-    price: 900,
-    img: "/img/slider/defender-main.jpg",
+    carName: "Mercedes-Benz G-Class Brabus 2020",
+    price: 1600,
+    img: "/img/slider/white-gclass-main.jpg",
   },
   {
     carName: "Mercedes-Benz S-Class 580 2021",
@@ -15,14 +15,19 @@ export const homeSlides = [
     img: "/img/slider/s570-main.jpg",
   },
   {
+    carName: "Land Rover Defender 2023",
+    price: 900,
+    img: "/img/slider/defender-main.jpg",
+  },
+  {
+    carName: "Porshce Macan S 2021",
+    price: 625,
+    img: "/img/slider/porshce-macan-main.JPG",
+  },
+  {
     carName: "Mercedes-Benz C-Class 300 2023",
     price: 450,
     img: "/img/slider/c300-main.jpg",
-  },
-  {
-    carName: "Mercedes-Benz G-Class Brabus 2020",
-    price: 1600,
-    img: "/img/slider/white-gclass-main.jpg",
   },
 
   {
@@ -36,25 +41,9 @@ export const homeSlides = [
     price: 400,
     img: "/img/slider/bmw530i-main.JPG",
   },
-
-  {
-    carName: "Porshce Macan S 2021",
-    price: 625,
-    img: "/img/slider/porshce-macan-main.JPG",
-  },
 ];
 
 export const homeFleet = [
-  {
-    id: 1,
-    carName: "Land Rover Defender 2023",
-    price: 900,
-    seats: 4,
-    transmission: "Auto",
-    capacity: "4 Bags",
-    minAge: 23,
-    img: "/img/slider/defender-main.jpg",
-  },
   {
     id: 2,
     carName: "Mercedes-Benz G-63 Brabus 2020",
@@ -64,6 +53,16 @@ export const homeFleet = [
     capacity: "4 Bags",
     minAge: 23,
     img: "/img/slider/brabos-main.jpg",
+  },
+  {
+    id: 5,
+    carName: "Mercedes-Benz G-Class Brabus 2020",
+    price: 1600,
+    seats: 5,
+    transmission: "Auto",
+    capacity: "2 Bags",
+    minAge: 23,
+    img: "/img/slider/white-gclass-main.jpg",
   },
   {
     id: 3,
@@ -76,6 +75,27 @@ export const homeFleet = [
     img: "/img/slider/s570-main.jpg",
   },
   {
+    id: 1,
+    carName: "Land Rover Defender 2023",
+    price: 900,
+    seats: 4,
+    transmission: "Auto",
+    capacity: "4 Bags",
+    minAge: 23,
+    img: "/img/slider/defender-main.jpg",
+  },
+  {
+    id: 8,
+    carName: "Porshce Macan S 2021",
+    price: 625,
+    seats: 4,
+    transmission: "Auto",
+    capacity: "2 Bags",
+    minAge: 23,
+    img: "/img/slider/porshce-macan-main.JPG",
+  },
+
+  {
     id: 4,
     carName: "Mercedes-Benz C-Class 300 2023",
     price: 450,
@@ -84,16 +104,6 @@ export const homeFleet = [
     capacity: "2 Bags",
     minAge: 23,
     img: "/img/slider/c300-main.jpg",
-  },
-  {
-    id: 5,
-    carName: "Mercedes-Benz G-Class Brabus 2020",
-    price: 1600,
-    seats: 5,
-    transmission: "Auto",
-    capacity: "2 Bags",
-    minAge: 23,
-    img: "/img/slider/white-gclass-main.jpg",
   },
   {
     id: 6,
@@ -114,16 +124,6 @@ export const homeFleet = [
     capacity: "2 Bags",
     minAge: 23,
     img: "/img/slider/bmw530i-main.JPG",
-  },
-  {
-    id: 8,
-    carName: "Porshce Macan S 2021",
-    price: 625,
-    seats: 4,
-    transmission: "Auto",
-    capacity: "2 Bags",
-    minAge: 23,
-    img: "/img/slider/porshce-macan-main.JPG",
   },
 ];
 
