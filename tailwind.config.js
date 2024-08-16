@@ -38,6 +38,9 @@ export default {
         "audi-pattern":
           "linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/slider/14.jpg)",
       },
+      height: {
+        slider: "500px", // Custom class for slider height
+      },
     },
   },
   plugins: [],

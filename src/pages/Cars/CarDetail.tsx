@@ -32,7 +32,7 @@ const CarDetail = () => {
             <img
               src={image}
               alt={`${carData.carName} image ${index + 1}`}
-              className="w-full h-72 object-cover rounded-lg"
+              className="w-full h-slider object-cover rounded-lg"
             />
           </SwiperSlide>
         ))}

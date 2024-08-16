@@ -14,10 +14,22 @@ const AboutSection = ({ withButton = false }) => {
                 <span className="text-primary">A Car Rental Company</span>
               </div>
               <p className="text-sm mb-8 text-neutral-500 font-light leading-loose">
-                Car repair quisque sodales dui ut varius vestibulum drana tortor
-                turpis porttiton tellus eu euismod nisl massa nutodio in the
-                miss volume place urna lacinia eros nunta urna mauris vehicula
-                rutrum in the miss on volume interdum.
+                At Royalty Gt, we believe that exceptional travel experiences go
+                beyond just getting from point A to point B. We are dedicated to
+                transforming every journey into a memorable adventure. With a
+                fleet of luxury vehicles and an unwavering commitment to
+                customer service, we strive to provide not just a ride, but a
+                first-class experience tailored to your needs. Our mission is to
+                offer the highest standards of elegance, comfort, and
+                reliability, all while keeping our services accessible and
+                affordable. From a single day’s rental to long-term
+                arrangements, our diverse options are designed to fit seamlessly
+                into your lifestyle. And with our professional chauffeur
+                services, we ensure that every trip is as smooth and enjoyable
+                as possible. At Royalty Gt, we don't just rent cars; we provide
+                an unparalleled travel experience that goes beyond the ordinary.
+                Your satisfaction is our priority, and we're here to make every
+                journey extraordinary.
               </p>
               <ul className="mb-6">
                 <li className="flex items-center">

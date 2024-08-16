@@ -1,5 +1,5 @@
-import CurvLT from "../../assets/CurvLT"
-import CurvRB from "../../assets/CurvRB"
+import CurvLT from "../../assets/CurvLT";
+import CurvRB from "../../assets/CurvRB";
 
 const StepNumber = ({ number }: { number: number }) => {
   return (
@@ -14,8 +14,8 @@ const StepNumber = ({ number }: { number: number }) => {
         <CurvRB />
       </div>
     </div>
-  )
-}
+  );
+};
 
 const Steps = () => {
   return (
@@ -35,8 +35,12 @@ const Steps = () => {
             <div>
               <h5 className="text-xl font-bold mb-4">Daily Car Rental</h5>
               <p className="text-sm text-neutral-500 mb-4">
-                Lorem ipsum dolor sit amet the consectetur adipiscing elit
-                entesque hendrerit elit nisan lacinia feugiat nunc eu aucton.
+                Experience flexibility and convenience with our daily car rental
+                services. Whether you need a vehicle for a short business trip,
+                a quick getaway, or just a day out, we offer a wide range of
+                luxury cars to suit your needs. Our fleet is meticulously
+                maintained to ensure a smooth and enjoyable drive, no matter the
+                occasion.
               </p>
             </div>
             <StepNumber number={1} />
@@ -48,8 +52,11 @@ const Steps = () => {
             <div>
               <h5 className="text-xl font-bold mb-4">Monthly Car Rental</h5>
               <p className="text-sm text-neutral-500 mb-4">
-                Lorem ipsum dolor sit amet the consectetur adipiscing elit
-                entesque hendrerit elit nisan lacinia feugiat nunc eu aucton.
+                Unlock unparalleled convenience and flexibility with our monthly
+                car rental options. Perfect for extended business trips,
+                long-term projects, or extended stays, our monthly rentals offer
+                a cost-effective solution without compromising on luxury or
+                comfort.
               </p>
             </div>
             <StepNumber number={2} />
@@ -61,8 +68,11 @@ const Steps = () => {
             <div>
               <h5 className="text-xl font-bold mb-4">Annual Car Rental</h5>
               <p className="text-sm text-neutral-500 mb-4">
-                Lorem ipsum dolor sit amet the consectetur adipiscing elit
-                entesque hendrerit elit nisan lacinia feugiat nunc eu aucton.
+                Discover the ultimate in convenience and luxury with our annual
+                car rental options. Ideal for frequent travelers, long-term
+                projects, or those who simply prefer the ease of having a
+                premium vehicle at their disposal year-round, our annual rentals
+                provide a seamless and cost-effective solution.
               </p>
             </div>
             <StepNumber number={3} />
@@ -70,7 +80,7 @@ const Steps = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Steps
+export default Steps;

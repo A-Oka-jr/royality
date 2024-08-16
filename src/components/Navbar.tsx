@@ -37,7 +37,7 @@ const Navbar = () => {
       <div className="lg:container justify-between w-full px-3 mx-auto flex items-center relative">
         {/* Logo */}
         <Link to="/">
-          <img src="img/logo-light.png" alt="Renax logo" width={130} />
+          <img src="img/logo-light.png" alt="Royalty Gt logo" width={160} />
         </Link>
         {/* Menu */}
         <div
