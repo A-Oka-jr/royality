@@ -1,6 +1,6 @@
 const PromoSection = () => {
   return (
-    <section className="relative py-32 bg-promo-pattern bg-left-top bg-cover bg-fixed ">
+    <section className="relative py-32 bg-promo-pattern bg-left-top bg-cover bg-fixed">
       <div className="container">
         <div className="text-center mb-10">
           <p className="text-small-primary mb-5">Explore</p>
@@ -9,13 +9,20 @@ const PromoSection = () => {
           </h3>
         </div>
         <div className="flex justify-center">
-          <a href="" className="group/promo">
-            <div className="w-24 h-24 border border-primary rounded-full flex items-center justify-center">
-              <span className=" text-4xl text-center group-hover/promo:text-primary transition-effect">
-                <i className="ti-control-play"></i>
-              </span>
+          <div className="relative group/promo w-full">
+            <video
+              src="/videos/sclass580.mp4"
+              className="w-full h-[calc(100vw)] max-h-[600px] object-cover rounded-lg"
+              controls
+            ></video>
+            <div className="absolute inset-0 flex items-center justify-center group-hover/promo:hidden transition-effect">
+              <div className="w-16 h-16 border border-primary rounded-full flex items-center justify-center">
+                <span className="text-2xl text-center text-primary transition-effect">
+                  <i className="ti-control-play"></i>
+                </span>
+              </div>
             </div>
-          </a>
+          </div>
         </div>
       </div>
     </section>
