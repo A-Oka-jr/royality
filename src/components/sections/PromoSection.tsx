@@ -11,7 +11,7 @@ const PromoSection = () => {
         <div className="flex justify-center">
           <div className="relative group/promo w-full">
             <video
-              src="/videos/sclass580.mp4"
+              src="/videos/gclass-video.mp4"
               className="w-full h-[calc(100vw)] max-h-[600px] object-cover rounded-lg"
               controls
             ></video>
