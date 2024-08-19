@@ -5,7 +5,8 @@ import AboutSection from "../../components/sections/AboutSection";
 import MessageSection from "../../components/sections/MessageSection";
 import PromoSection from "../../components/sections/PromoSection";
 // import TestimonialsSection from "../../components/sections/TestimonialsSection";
-import Experts from "./Experts";
+// import Experts from "./Experts";
+import OtherServices from "../Services/OtherServices";
 
 const About = () => {
   return (
@@ -23,7 +24,9 @@ const About = () => {
       <PromoSection />
       {/* <TestimonialsSection /> */}
       <Separator />
-      <Experts />
+      <OtherServices />
+
+      {/* <Experts /> */}
       <MessageSection />
       <Clients />
     </>
