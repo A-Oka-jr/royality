@@ -5,8 +5,6 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [navOpen, setNavOpen] = useState(false);
-  // const [linksExpanded, setLinksExpanded] = useState(false);
-  // const [linksHovered, setLinksHovered] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -25,7 +23,9 @@ const Navbar = () => {
   });
 
   const toggleNav = () => setNavOpen((prevState) => !prevState);
-  // const toggleLinks = () => setLinksExpanded((prevState) => !prevState);
+
+  // Function to close the navigation menu
+  const closeNav = () => setNavOpen(false);
 
   return (
     <nav
@@ -36,7 +36,7 @@ const Navbar = () => {
     >
       <div className="lg:container justify-between w-full px-3 mx-auto flex items-center relative">
         {/* Logo */}
-        <Link to="/">
+        <Link to="/" onClick={closeNav}>
           <img src="img/logo-light.png" alt="Royalty Gt logo" width={160} />
         </Link>
         {/* Menu */}
@@ -49,73 +49,38 @@ const Navbar = () => {
           )}
         >
           <div className="flex flex-col px-5 py-8 gap-6 lg:p-0 lg:flex-row lg:items-center lg:gap-5">
-            <Link to="/" className="text-sm font-light hover:text-primary">
+            <Link
+              to="/"
+              className="text-sm font-light hover:text-primary"
+              onClick={closeNav}
+            >
               Home
             </Link>
-            <Link to="/about" className="text-sm font-light hover:text-primary">
+            <Link
+              to="/about"
+              className="text-sm font-light hover:text-primary"
+              onClick={closeNav}
+            >
               About
             </Link>
             <Link
               to="/services"
               className="text-sm font-light hover:text-primary"
+              onClick={closeNav}
             >
               Services
             </Link>
-            <Link to="/cars" className="text-sm font-light hover:text-primary">
+            <Link
+              to="/cars"
+              className="text-sm font-light hover:text-primary"
+              onClick={closeNav}
+            >
               Cars
             </Link>
-            {/* <div
-              onMouseEnter={() => setLinksHovered(true)}
-              onMouseLeave={() => setLinksHovered(false)}
-              className="relative lg:py-4"
-            >
-              <span
-                onClick={toggleLinks}
-                className="text-sm font-light hover:text-primary flex items-center cursor-pointer transition-effect"
-              >
-                Pages
-                <i className="ti-angle-down text-[8px] ml-1"></i>
-              </span>
-              <div
-                className={twMerge(
-                  "hidden",
-                  linksExpanded &&
-                    "flex flex-col gap-4 pt-5 ml-4 lg:gap-0 lg:ml-0",
-                  !linksHovered &&
-                    "lg:opacity-0 lg:absolute lg:-left-7 lg:flex",
-                  linksHovered &&
-                    "lg:mt-4 lg:opacity-100 lg:flex lg:absolute lg:-left-7 lg:flex-col lg:bg-neutral-800 lg:p-6 lg:rounded-3xl lg:w-52 lg:z-10 lg:gap-4 transition-all"
-                )}
-              >
-                <Link
-                  to="/team"
-                  className="text-sm font-light hover:text-primary"
-                >
-                  Team
-                </Link>
-                <Link
-                  to="/pricing-plan"
-                  className="text-sm font-light hover:text-primary"
-                >
-                  Pricing Plan
-                </Link>
-                <Link
-                  to="/faq"
-                  className="text-sm font-light hover:text-primary"
-                >
-                  FAQ
-                </Link>
-                <Link
-                  to="/testimonials"
-                  className="text-sm font-light hover:text-primary"
-                >
-                  Testimonials
-                </Link>
-              </div>
-            </div> */}
             <Link
               to="/contact"
               className="text-sm font-light hover:text-primary"
+              onClick={closeNav}
             >
               Contact
             </Link>
