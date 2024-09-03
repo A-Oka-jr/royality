@@ -15,7 +15,7 @@ export const homeSlides = [
     img: "/img/slider/s570-main.jpg",
   },
   {
-    carName: "Rang Rover SVR 2021",
+    carName: "Range Rover SVR 2021",
     price: 1100,
     img: "/img/slider/svr-main.jpeg",
   },
@@ -134,7 +134,7 @@ export const homeFleet = [
   },
   {
     id: 1,
-    carName: "Rang Rover SVR 2021",
+    carName: "Range Rover SVR 2021",
     price: 1100,
     seats: 4,
     transmission: "Auto",
