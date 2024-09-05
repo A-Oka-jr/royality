@@ -1,5 +1,5 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-
+import { Link } from "react-router-dom";
 import { homeFleet } from "../../lib/constants";
 
 import "swiper/css";
@@ -25,7 +25,11 @@ const Fleet = () => {
         {homeFleet.map((car) => (
           <SwiperSlide key={car.carName} className="max-w-[800px]">
             <div className="flex flex-col">
-              <img src={car.img} alt={car.carName} className="rounded-2xl" />
+              <img
+                src={car.img}
+                alt={car.carName}
+                className="rounded-2xl h-[600px] w-full object-cover"
+              />{" "}
               <div className="w-full md:w-3/4 md:mx-auto flex-col md:flex-row bg-neutral-800 flex gap-3 md:gap-0 px-6 py-6 rounded-2xl md:-mt-10">
                 <div className="w-full md:w-2/3">
                   <a href="#" className="font-bold text-xl">
@@ -63,7 +67,13 @@ const Fleet = () => {
                   </div>
                 </div>
                 <div className="flex gap-4">
-                  <button className="button">Details</button>
+                  <Link
+                    to={`/cars/${car.id}`}
+                    state={{ car: car }}
+                    className="button px-5 py-2"
+                  >
+                    Details
+                  </Link>{" "}
                   <div className="flex flex-col ">
                     <span className="text-primary text-xl font-bold">
                       {car.price + "AED"}
