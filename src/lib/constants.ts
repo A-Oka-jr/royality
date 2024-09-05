@@ -19,6 +19,13 @@ export const homeSlides = [
     price: 1100,
     img: "/img/slider/svr-main.jpeg",
   },
+
+  {
+    carName: "Land Rover Defender 2023",
+    price: 900,
+    img: "/img/slider/Land-Rover-Defender-2023-11.jpg",
+  },
+
   {
     carName: "Porshce Macan S 2021",
     price: 625,
@@ -44,25 +51,19 @@ export const homeSlides = [
 
   {
     carName: "BMW 430i cabriolet 2022",
-    price: 400,
+    price: 450,
     img: "/img/slider/BMW-430i-cabriolet-5.jpg",
   },
 
   {
-    carName: "Land Rover Defender 2023",
-    price: 400,
-    img: "/img/slider/Land-Rover-Defender-2023-11.jpg",
-  },
-
-  {
     carName: "Mercedes benz c300 cabriolet 2021",
-    price: 400,
+    price: 450,
     img: "/img/slider/Mercedes-benz-c300-cabriolet-2021-2.jpg",
   },
 
   {
     carName: "Nissan Patrol 2022",
-    price: 400,
+    price: 450,
     img: "/img/slider/Nissan-Patrol-2022-3.jpg",
   },
 ];
@@ -198,6 +199,28 @@ export const homeFleet = [
     ],
   },
   {
+    id: 10,
+    carName: "Land Rover Defender 2023",
+    price: 900,
+    seats: 8,
+    transmission: "Auto",
+    capacity: "4 Bags",
+    minAge: 23,
+    img: "/img/slider/Land-Rover-Defender-2023-11.jpg",
+    images: [
+      "/img/Land Rover Defender 2023/Land-Rover-Defender-2023-1.jpg",
+      "/img/Land Rover Defender 2023/Land-Rover-Defender-2023-2.jpg",
+      "/img/Land Rover Defender 2023/Land-Rover-Defender-2023-3.jpg",
+      "/img/Land Rover Defender 2023/Land-Rover-Defender-2023-4.jpg",
+      "/img/Land Rover Defender 2023/Land-Rover-Defender-2023-5.jpg",
+      "/img/Land Rover Defender 2023/Land-Rover-Defender-2023-6.jpg",
+      "/img/Land Rover Defender 2023/Land-Rover-Defender-2023-7.jpg",
+      "/img/Land Rover Defender 2023/Land-Rover-Defender-2023-8.jpg",
+      "/img/Land Rover Defender 2023/Land-Rover-Defender-2023-9.jpg",
+      "/img/Land Rover Defender 2023/Land-Rover-Defender-2023-10.jpg",
+    ],
+  },
+  {
     id: 8,
     carName: "Porshce Macan S 2021",
     price: 625,
@@ -225,7 +248,6 @@ export const homeFleet = [
       "/img/macan/macan-16.jpg",
     ],
   },
-
   {
     id: 4,
     carName: "Mercedes C-Class 300 2023",
@@ -338,28 +360,6 @@ export const homeFleet = [
     ],
   },
   {
-    id: 10,
-    carName: "Land Rover Defender 2023",
-    price: 400,
-    seats: 4,
-    transmission: "Auto",
-    capacity: "2 Bags",
-    minAge: 23,
-    img: "/img/slider/Land-Rover-Defender-2023-11.jpg",
-    images: [
-      "/img/Land Rover Defender 2023/Land-Rover-Defender-2023-1.jpg",
-      "/img/Land Rover Defender 2023/Land-Rover-Defender-2023-2.jpg",
-      "/img/Land Rover Defender 2023/Land-Rover-Defender-2023-3.jpg",
-      "/img/Land Rover Defender 2023/Land-Rover-Defender-2023-4.jpg",
-      "/img/Land Rover Defender 2023/Land-Rover-Defender-2023-5.jpg",
-      "/img/Land Rover Defender 2023/Land-Rover-Defender-2023-6.jpg",
-      "/img/Land Rover Defender 2023/Land-Rover-Defender-2023-7.jpg",
-      "/img/Land Rover Defender 2023/Land-Rover-Defender-2023-8.jpg",
-      "/img/Land Rover Defender 2023/Land-Rover-Defender-2023-9.jpg",
-      "/img/Land Rover Defender 2023/Land-Rover-Defender-2023-10.jpg",
-    ],
-  },
-  {
     id: 11,
     carName: "Mercedes benz c300 cabriolet 2021",
     price: 400,
@@ -386,10 +386,10 @@ export const homeFleet = [
   {
     id: 12,
     carName: "Nissan Patrol 2022",
-    price: 400,
-    seats: 4,
+    price: 450,
+    seats: 7,
     transmission: "Auto",
-    capacity: "2 Bags",
+    capacity: "3 Bags",
     minAge: 23,
     img: "/img/slider/Nissan-Patrol-2022-3.jpg",
     images: [
